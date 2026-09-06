@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- FED-Radio glyph: radio faceplate + broadcast arcs + ON AIR dot.
+         Drawn inside the 66dp adaptive-icon safe zone (centered, 21..87). -->
+
+    <!-- Three broadcast arcs radiating upward -->
+    <path android:strokeColor="#FF7A18" android:strokeWidth="2.6"
+          android:strokeLineCap="round" android:fillColor="#00000000"
+          android:pathData="M54,48 A7,7 0 0,1 61,41" />
+    <path android:strokeColor="#FF7A18" android:strokeWidth="2.6"
+          android:strokeLineCap="round" android:fillColor="#00000000"
+          android:pathData="M47.5,44.5 A12.5,12.5 0 0,1 60.5,31.5" />
+    <path android:strokeColor="#FF7A18" android:strokeWidth="2.6"
+          android:strokeLineCap="round" android:fillColor="#00000000"
+          android:pathData="M41,41 A18,18 0 0,1 67,22" />
+
+    <!-- Faceplate bar with rounded ends -->
+    <path android:fillColor="#FF7A18"
+          android:pathData="M27,56 h54 a5,5 0 0,1 5,5 v12 a5,5 0 0,1 -5,5 h-54 a5,5 0 0,1 -5,-5 v-12 a5,5 0 0,1 5,-5 z" />
+
+    <!-- Left + right tuning dials -->
+    <path android:fillColor="#1E1E1E"
+          android:pathData="M33,67 m-5,0 a5,5 0 1,0 10,0 a5,5 0 1,0 -10,0" />
+    <path android:fillColor="#1E1E1E"
+          android:pathData="M75,67 m-5,0 a5,5 0 1,0 10,0 a5,5 0 1,0 -10,0" />
+    <path android:strokeColor="#FF7A18" android:strokeWidth="1.6" android:fillColor="#00000000"
+          android:pathData="M33,67 m-7.5,0 a7.5,7.5 0 1,0 15,0 a7.5,7.5 0 1,0 -15,0" />
+    <path android:strokeColor="#FF7A18" android:strokeWidth="1.6" android:fillColor="#00000000"
+          android:pathData="M75,67 m-7.5,0 a7.5,7.5 0 1,0 15,0 a7.5,7.5 0 1,0 -15,0" />
+
+    <!-- Center indicator dots -->
+    <path android:fillColor="#1E1E1E" android:pathData="M50,67 m-2.2,0 a2.2,2.2 0 1,0 4.4,0 a2.2,2.2 0 1,0 -4.4,0" />
+    <path android:fillColor="#1E1E1E" android:pathData="M58,67 m-2.2,0 a2.2,2.2 0 1,0 4.4,0 a2.2,2.2 0 1,0 -4.4,0" />
+    <path android:fillColor="#1E1E1E" android:pathData="M66,67 m-2.2,0 a2.2,2.2 0 1,0 4.4,0 a2.2,2.2 0 1,0 -4.4,0" />
+
+    <!-- ON AIR dot -->
+    <path android:fillColor="#E5484D" android:pathData="M76,30 m-3.4,0 a3.4,3.4 0 1,0 6.8,0 a3.4,3.4 0 1,0 -6.8,0" />
+</vector>
