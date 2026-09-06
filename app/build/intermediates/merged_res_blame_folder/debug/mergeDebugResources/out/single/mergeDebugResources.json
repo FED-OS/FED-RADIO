@@ -1,0 +1,78 @@
+[
+    {
+        "merged": "/root/.gradle/daemon/8.7/com.fedradio.app-debug-21:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "/root/.gradle/daemon/8.7/com.fedradio.app-main-23:/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/root/.gradle/daemon/8.7/com.fedradio.app-debug-21:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "/root/.gradle/daemon/8.7/com.fedradio.app-main-23:/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/root/.gradle/daemon/8.7/com.fedradio.app-debug-21:/drawable_ic_stat_fed.xml.flat",
+        "source": "/root/.gradle/daemon/8.7/com.fedradio.app-main-23:/drawable/ic_stat_fed.xml"
+    },
+    {
+        "merged": "/root/.gradle/daemon/8.7/com.fedradio.app-debug-21:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/root/.gradle/daemon/8.7/com.fedradio.app-main-23:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/root/.gradle/daemon/8.7/com.fedradio.app-debug-21:/layout_activity_main.xml.flat",
+        "source": "/root/.gradle/daemon/8.7/com.fedradio.app-main-23:/layout/activity_main.xml"
+    },
+    {
+        "merged": "/root/.gradle/daemon/8.7/com.fedradio.app-debug-21:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/root/.gradle/daemon/8.7/com.fedradio.app-main-23:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/root/.gradle/daemon/8.7/com.fedradio.app-debug-21:/drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "/root/.gradle/daemon/8.7/com.fedradio.app-main-23:/drawable-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "/root/.gradle/daemon/8.7/com.fedradio.app-debug-21:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/root/.gradle/daemon/8.7/com.fedradio.app-main-23:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/root/.gradle/daemon/8.7/com.fedradio.app-debug-21:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "/root/.gradle/daemon/8.7/com.fedradio.app-main-23:/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/root/.gradle/daemon/8.7/com.fedradio.app-debug-21:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "/root/.gradle/daemon/8.7/com.fedradio.app-main-23:/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/root/.gradle/daemon/8.7/com.fedradio.app-debug-21:/xml_automotive_app_desc.xml.flat",
+        "source": "/root/.gradle/daemon/8.7/com.fedradio.app-main-23:/xml/automotive_app_desc.xml"
+    },
+    {
+        "merged": "/root/.gradle/daemon/8.7/com.fedradio.app-debug-21:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/root/.gradle/daemon/8.7/com.fedradio.app-main-23:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/root/.gradle/daemon/8.7/com.fedradio.app-debug-21:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "/root/.gradle/daemon/8.7/com.fedradio.app-main-23:/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.fedradio.app-debug-21:/layout_activity_main.xml.flat",
+        "source": "com.fedradio.app-main-23:/layout/activity_main.xml"
+    },
+    {
+        "merged": "/root/.gradle/daemon/8.7/com.fedradio.app-debug-21:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/root/.gradle/daemon/8.7/com.fedradio.app-main-23:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/root/.gradle/daemon/8.7/com.fedradio.app-debug-21:/drawable-nodpi_ic_station_art.png.flat",
+        "source": "/root/.gradle/daemon/8.7/com.fedradio.app-main-23:/drawable-nodpi/ic_station_art.png"
+    },
+    {
+        "merged": "/root/.gradle/daemon/8.7/com.fedradio.app-debug-21:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/root/.gradle/daemon/8.7/com.fedradio.app-main-23:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/root/.gradle/daemon/8.7/com.fedradio.app-debug-21:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/root/.gradle/daemon/8.7/com.fedradio.app-main-23:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/root/.gradle/daemon/8.7/com.fedradio.app-debug-21:/drawable_ic_launcher_background.xml.flat",
+        "source": "/root/.gradle/daemon/8.7/com.fedradio.app-main-23:/drawable/ic_launcher_background.xml"
+    }
+]
