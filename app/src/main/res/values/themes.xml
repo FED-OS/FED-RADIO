@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Print-edition light theme for the WebView-driven broadsheet -->
+    <style name="Theme.FEDRadio" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@color/paper</item>
+        <item name="android:statusBarColor">@color/paper</item>
+        <item name="android:navigationBarColor">@color/paper</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="colorPrimary">@color/accent_red</item>
+        <item name="colorPrimaryDark">@color/paper</item>
+        <item name="colorAccent">@color/dial_amber</item>
+    </style>
+</resources>
