@@ -1,8 +1,3 @@
-<!-- Root-level fallback PR template.
-     GitHub prefers .github/PULL_REQUEST_TEMPLATE.md; this copy exists so
-     PRs opened against hosts/tools that read the root are still covered.
-     Keep both files in sync. -->
-
 ## Description
 What does this PR change and why?
 

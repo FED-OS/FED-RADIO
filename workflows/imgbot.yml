@@ -1,0 +1,26 @@
+name: ImgBot
+
+on:
+  pull_request:
+    types: [opened, synchronize]
+  # Uncomment the line below if you also want it to run on a schedule to catch new images
+  # schedule:
+  #   - cron: "0 0 * * *"
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  imgbot:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: ImgBot
+        uses: docker://imgbot/imgbot-action:latest
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
