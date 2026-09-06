@@ -1,0 +1,21 @@
+* text=auto
+
+# Source
+*.kt text
+*.kts text
+*.xml text
+*.md text
+*.html text
+*.css text
+*.properties text
+*.yml text
+*.yaml text
+*.sh text
+gradlew text
+
+# Binaries
+*.png binary
+*.wav binary
+*.jar binary
+*.zip binary
+*.jks binary
