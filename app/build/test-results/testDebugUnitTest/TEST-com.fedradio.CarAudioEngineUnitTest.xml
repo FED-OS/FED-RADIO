@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.fedradio.CarAudioEngineUnitTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2026-09-05T23:28:03" hostname="172.20.88.8" time="0.097">
+  <properties/>
+  <testcase name="real brain file - car sees every station with a non-empty title" classname="com.fedradio.CarAudioEngineUnitTest" time="0.056"/>
+  <testcase name="contract - data-id last attribute with plain text title parses" classname="com.fedradio.CarAudioEngineUnitTest" time="0.001"/>
+  <testcase name="real brain file - car station count matches station block count" classname="com.fedradio.CarAudioEngineUnitTest" time="0.012"/>
+  <testcase name="sanity - app name is FED-Radio" classname="com.fedradio.CarAudioEngineUnitTest" time="0.001"/>
+  <testcase name="contract regression - titles wrapped in spans must not parse as empty" classname="com.fedradio.CarAudioEngineUnitTest" time="0.001"/>
+  <testcase name="real brain file - data-id is always the last attribute" classname="com.fedradio.CarAudioEngineUnitTest" time="0.011"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
