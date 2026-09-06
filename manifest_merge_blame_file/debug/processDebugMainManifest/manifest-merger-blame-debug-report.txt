@@ -1,0 +1,131 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.fedradio"
+4    android:versionCode="4"
+5    android:versionName="2.1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="29"
+9        android:targetSdkVersion="34" />
+10
+11    <!--
+12         Local-first: INTERNET only for YouTube embeds in the WebView (phone/tablet view).
+13         The car bridge itself plays bundled, offline audio with zero network use.
+14    -->
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->/workspace/FED-Radio/app/src/main/AndroidManifest.xml:6:5-67
+15-->/workspace/FED-Radio/app/src/main/AndroidManifest.xml:6:22-64
+16    <uses-permission android:name="android.permission.WAKE_LOCK" />
+16-->/workspace/FED-Radio/app/src/main/AndroidManifest.xml:7:5-68
+16-->/workspace/FED-Radio/app/src/main/AndroidManifest.xml:7:22-65
+17    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+17-->/workspace/FED-Radio/app/src/main/AndroidManifest.xml:8:5-77
+17-->/workspace/FED-Radio/app/src/main/AndroidManifest.xml:8:22-74
+18    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK" />
+18-->/workspace/FED-Radio/app/src/main/AndroidManifest.xml:9:5-92
+18-->/workspace/FED-Radio/app/src/main/AndroidManifest.xml:9:22-89
+19    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+19-->/workspace/FED-Radio/app/src/main/AndroidManifest.xml:10:5-77
+19-->/workspace/FED-Radio/app/src/main/AndroidManifest.xml:10:22-74
+20
+21    <permission
+21-->[androidx.core:core:1.12.0] /root/.gradle/caches/transforms-4/feee41e4f72859d1b31d2184c9653621/transformed/core-1.12.0/AndroidManifest.xml:22:5-24:47
+22        android:name="com.fedradio.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+22-->[androidx.core:core:1.12.0] /root/.gradle/caches/transforms-4/feee41e4f72859d1b31d2184c9653621/transformed/core-1.12.0/AndroidManifest.xml:23:9-81
+23        android:protectionLevel="signature" />
+23-->[androidx.core:core:1.12.0] /root/.gradle/caches/transforms-4/feee41e4f72859d1b31d2184c9653621/transformed/core-1.12.0/AndroidManifest.xml:24:9-44
+24
+25    <uses-permission android:name="com.fedradio.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+25-->[androidx.core:core:1.12.0] /root/.gradle/caches/transforms-4/feee41e4f72859d1b31d2184c9653621/transformed/core-1.12.0/AndroidManifest.xml:26:5-97
+25-->[androidx.core:core:1.12.0] /root/.gradle/caches/transforms-4/feee41e4f72859d1b31d2184c9653621/transformed/core-1.12.0/AndroidManifest.xml:26:22-94
+26
+27    <application
+27-->/workspace/FED-Radio/app/src/main/AndroidManifest.xml:12:5-45:19
+28        android:allowBackup="true"
+28-->/workspace/FED-Radio/app/src/main/AndroidManifest.xml:13:9-35
+29        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+29-->[androidx.core:core:1.12.0] /root/.gradle/caches/transforms-4/feee41e4f72859d1b31d2184c9653621/transformed/core-1.12.0/AndroidManifest.xml:28:18-86
+30        android:debuggable="true"
+31        android:extractNativeLibs="false"
+32        android:icon="@mipmap/ic_launcher"
+32-->/workspace/FED-Radio/app/src/main/AndroidManifest.xml:14:9-43
+33        android:label="@string/app_name"
+33-->/workspace/FED-Radio/app/src/main/AndroidManifest.xml:15:9-41
+34        android:theme="@style/Theme.FEDRadio"
+34-->/workspace/FED-Radio/app/src/main/AndroidManifest.xml:16:9-46
+35        android:usesCleartextTraffic="false" >
+35-->/workspace/FED-Radio/app/src/main/AndroidManifest.xml:17:9-45
+36
+37        <!-- ============ PHONE / TABLET / DESKTOP VIEW ============ -->
+38        <activity
+38-->/workspace/FED-Radio/app/src/main/AndroidManifest.xml:20:9-28:20
+39            android:name="com.fedradio.MainActivity"
+39-->/workspace/FED-Radio/app/src/main/AndroidManifest.xml:21:13-41
+40            android:configChanges="orientation|screenSize|keyboardHidden"
+40-->/workspace/FED-Radio/app/src/main/AndroidManifest.xml:23:13-74
+41            android:exported="true" >
+41-->/workspace/FED-Radio/app/src/main/AndroidManifest.xml:22:13-36
+42            <intent-filter>
+42-->/workspace/FED-Radio/app/src/main/AndroidManifest.xml:24:13-27:29
+43                <action android:name="android.intent.action.MAIN" />
+43-->/workspace/FED-Radio/app/src/main/AndroidManifest.xml:25:17-69
+43-->/workspace/FED-Radio/app/src/main/AndroidManifest.xml:25:25-66
+44
+45                <category android:name="android.intent.category.LAUNCHER" />
+45-->/workspace/FED-Radio/app/src/main/AndroidManifest.xml:26:17-77
+45-->/workspace/FED-Radio/app/src/main/AndroidManifest.xml:26:27-74
+46            </intent-filter>
+47        </activity>
+48
+49        <!-- ============ ANDROID AUTO CAR BRIDGE ============ -->
+50        <service
+50-->/workspace/FED-Radio/app/src/main/AndroidManifest.xml:31:9-38:19
+51            android:name="com.fedradio.CarAudioEngine"
+51-->/workspace/FED-Radio/app/src/main/AndroidManifest.xml:32:13-43
+52            android:exported="true"
+52-->/workspace/FED-Radio/app/src/main/AndroidManifest.xml:33:13-36
+53            android:foregroundServiceType="mediaPlayback" >
+53-->/workspace/FED-Radio/app/src/main/AndroidManifest.xml:34:13-58
+54            <intent-filter>
+54-->/workspace/FED-Radio/app/src/main/AndroidManifest.xml:35:13-37:29
+55                <action android:name="android.media.browse.MediaBrowserService" />
+55-->/workspace/FED-Radio/app/src/main/AndroidManifest.xml:36:17-83
+55-->/workspace/FED-Radio/app/src/main/AndroidManifest.xml:36:25-80
+56            </intent-filter>
+57        </service>
+58
+59        <!--
+60             Tells the Android Auto subsystem this app is authorized to
+61             project to the car dashboard as a media app.
+62        -->
+63        <meta-data
+63-->/workspace/FED-Radio/app/src/main/AndroidManifest.xml:42:9-44:59
+64            android:name="com.google.android.gms.car.application"
+64-->/workspace/FED-Radio/app/src/main/AndroidManifest.xml:43:13-66
+65            android:resource="@xml/automotive_app_desc" />
+65-->/workspace/FED-Radio/app/src/main/AndroidManifest.xml:44:13-56
+66
+67        <provider
+67-->[androidx.emoji2:emoji2:1.2.0] /root/.gradle/caches/transforms-4/792e2323f60a0b9cf71e3d8250f56118/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+68            android:name="androidx.startup.InitializationProvider"
+68-->[androidx.emoji2:emoji2:1.2.0] /root/.gradle/caches/transforms-4/792e2323f60a0b9cf71e3d8250f56118/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
+69            android:authorities="com.fedradio.androidx-startup"
+69-->[androidx.emoji2:emoji2:1.2.0] /root/.gradle/caches/transforms-4/792e2323f60a0b9cf71e3d8250f56118/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
+70            android:exported="false" >
+70-->[androidx.emoji2:emoji2:1.2.0] /root/.gradle/caches/transforms-4/792e2323f60a0b9cf71e3d8250f56118/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
+71            <meta-data
+71-->[androidx.emoji2:emoji2:1.2.0] /root/.gradle/caches/transforms-4/792e2323f60a0b9cf71e3d8250f56118/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+72                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+72-->[androidx.emoji2:emoji2:1.2.0] /root/.gradle/caches/transforms-4/792e2323f60a0b9cf71e3d8250f56118/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
+73                android:value="androidx.startup" />
+73-->[androidx.emoji2:emoji2:1.2.0] /root/.gradle/caches/transforms-4/792e2323f60a0b9cf71e3d8250f56118/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
+74            <meta-data
+74-->[androidx.lifecycle:lifecycle-process:2.4.1] /root/.gradle/caches/transforms-4/f893041678dc54a6b128f8cf66d6a58b/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+75                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+75-->[androidx.lifecycle:lifecycle-process:2.4.1] /root/.gradle/caches/transforms-4/f893041678dc54a6b128f8cf66d6a58b/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+76                android:value="androidx.startup" />
+76-->[androidx.lifecycle:lifecycle-process:2.4.1] /root/.gradle/caches/transforms-4/f893041678dc54a6b128f8cf66d6a58b/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+77        </provider>
+78    </application>
+79
+80</manifest>

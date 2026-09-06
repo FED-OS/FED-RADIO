@@ -1,0 +1,24 @@
+R_DEF: Internal format may change without notice
+local
+color accent_red
+color dial_amber
+color hairline
+color ink
+color ink_soft
+color paper
+color paper_deep
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+drawable ic_stat_fed
+drawable ic_station_art
+id webview
+layout activity_main
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+string donate_prompt
+string now_playing
+string station_tagline
+string track_list
+style Theme.FEDRadio
+xml automotive_app_desc
