@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- FED-Radio brand palette (print-edition broadsheet) -->
+    <color name="paper">#F4EFE6</color>
+    <color name="paper_deep">#E7DFCC</color>
+    <color name="ink">#1A1712</color>
+    <color name="ink_soft">#6B6250</color>
+    <color name="hairline">#C9BFA9</color>
+    <color name="accent_red">#B3271E</color>
+    <color name="dial_amber">#C77B1F</color>
+</resources>

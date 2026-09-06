@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">FED-Radio</string>
+    <string name="station_tagline">In-House Radio · Built From Scratch</string>
+    <string name="now_playing">Now Playing</string>
+    <string name="track_list">Station Tracks</string>
+    <string name="donate_prompt">Enjoying the show? Buy me a coffee ☕</string>
+</resources>
